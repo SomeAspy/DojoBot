@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@discordjs/builders':
         specifier: ^1.8.1
-        version: 1.8.1
+        version: 1.8.2
       discord.js:
         specifier: ^14.15.2
         version: 14.15.2
@@ -23,8 +23,8 @@ importers:
 
 packages:
 
-  '@discordjs/builders@1.8.1':
-    resolution: {integrity: sha512-GkF+HM01FHy+NSoTaUPR8z44otfQgJ1AIsRxclYGUZDyUbdZEFyD/5QVv2Y1Flx6M+B0bQLzg2M9CJv5lGTqpA==}
+  '@discordjs/builders@1.8.2':
+    resolution: {integrity: sha512-6wvG3QaCjtMu0xnle4SoOIeFB4y6fKMN6WZfy3BMKJdQQtPLik8KGzDwBVL/+wTtcE/ZlFjgEk74GublyEVZ7g==}
     engines: {node: '>=16.11.0'}
 
   '@discordjs/collection@1.5.3':
@@ -127,7 +127,7 @@ packages:
 
 snapshots:
 
-  '@discordjs/builders@1.8.1':
+  '@discordjs/builders@1.8.2':
     dependencies:
       '@discordjs/formatters': 0.4.0
       '@discordjs/util': 1.1.0
@@ -197,7 +197,7 @@ snapshots:
 
   discord.js@14.15.2:
     dependencies:
-      '@discordjs/builders': 1.8.1
+      '@discordjs/builders': 1.8.2
       '@discordjs/collection': 1.5.3
       '@discordjs/formatters': 0.4.0
       '@discordjs/rest': 2.3.0
